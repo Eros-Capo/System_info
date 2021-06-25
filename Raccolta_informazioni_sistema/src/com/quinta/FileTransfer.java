@@ -6,7 +6,7 @@ import java.net.Socket;
 
 public class FileTransfer {
     private final static int SOC_PORT = 4444;
-    private final static String FILE_TO_SEND = "C:\\Users\\ErosCapo\\Desktop\\out\\src\\com\\quinta\\Archivio.txt";
+    private final static String FILE_TO_SEND = "path_to_Archivio.txt";
     String host = "127.0.0.1";
     FileInputStream fis = null;
     BufferedInputStream bis = null;
